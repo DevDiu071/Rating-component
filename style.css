@@ -1,0 +1,126 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background-color: hsl(216, 12%, 8%);
+  font-family: sans-serif;
+  color: #fff;
+}
+
+.rating-component {
+  max-width: 42rem;
+  margin: 5rem auto;
+  background-color: hsl(213, 19%, 18%);
+  padding: 2rem;
+  border-radius: 3rem;
+  margin-top: 10rem;
+}
+
+.img {
+  background-color: hsl(212, 15%, 26%);
+  padding: 1rem;
+  display: inline-block;
+  border-radius: 50%;
+}
+
+.heading {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+  margin-top: 3rem;
+}
+
+.para {
+  font-size: 1.5rem;
+  margin-bottom: 2rem;
+  color: hsl(217, 12%, 63%);
+  line-height: 1.6;
+}
+
+.nums {
+  display: flex;
+  gap: 3rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+}
+
+.nums div {
+  width: 51px;
+  height: 51px;
+  background-color: hsl(212, 15%, 26%);
+  padding: 1.3rem 1.6rem;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.2s;
+  /* text-align: center; */
+}
+
+.num {
+  /* width: 2rem;
+  height: 2rem; */
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nums div:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.btn {
+  border: none;
+  padding: 1rem 2rem;
+  width: 100%;
+  background-color: hsl(25, 97%, 53%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 2rem;
+  cursor: pointer;
+  height: 45px;
+}
+
+.thank-you {
+  text-align: center;
+  font-size: 1.2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 1rem 0.5rem;
+}
+
+.thank-you h4 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.thank-you img {
+  width: 12rem;
+  margin-bottom: 2rem;
+}
+
+.thank-para {
+  line-height: 1.6;
+  color: hsl(217, 12%, 63%);
+}
+
+.you-select {
+  background-color: hsl(212, 15%, 26%);
+  padding: 0.5rem 1rem;
+  border-radius: 1.5rem;
+  margin-bottom: 2rem;
+  color: hsl(25, 97%, 53%);
+}
+
+.hide {
+  display: none;
+}
+
+.num-back {
+  background-color: hsl(216, 69%, 35%);
+}
