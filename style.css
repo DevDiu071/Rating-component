@@ -16,6 +16,7 @@ body {
 
 .rating-component {
   max-width: 42rem;
+  height: 416px;
   margin: 5rem auto;
   background-color: hsl(213, 19%, 18%);
   padding: 2rem;
